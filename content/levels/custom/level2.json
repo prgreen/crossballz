@@ -1,0 +1,75 @@
+{
+	"info" :
+	{
+		"title" : "Hey level 2",
+		"description" : "Hit the ball towards the goal.",
+		"author" : "G.C."
+	},
+	"general" : 
+	{
+		"gravity": 100,
+		"damping": 0.7,
+		"bounds" :
+		[
+			{
+				"x" : -110,
+				"y" : 20,
+				"w" : 150,
+				"h" : 100
+			}
+		]
+	},
+	"entities" :
+	[	
+		{
+			"role" : "hitter",
+			"shape": "box",
+			"x" : -90,
+			"y" : 20,
+			"w" : 20,
+			"h": 40
+
+		},
+		{
+			"role" : "ball",
+			"shape": "circle",
+			"x" : -90,
+			"y" : 50,
+			"r" : 10
+		},
+		{
+			"role" : "ball",
+			"shape": "circle",
+			"x" : -70,
+			"y" : 50,
+			"r" : 10
+		},
+		{
+			"role" : "goal",
+			"shape": "box",
+			"x" : 90,
+			"y" : 40,
+			"w" : 10,
+			"h" : 10
+		},
+		{
+			"role": "static",
+			"shape": "box",
+			"x" : 0,
+			"y" : -5,
+			"w" : 200,
+			"h": 10,
+			"elasticity":1.5
+		},
+		{
+			"role": "static",
+			"shape": "segment",
+			"x1" : 100,
+			"y1" : 50,
+			"x2" : 150,
+			"y2": 100,
+			"thickness": 10,
+			"elasticity":2
+		}
+	]
+}

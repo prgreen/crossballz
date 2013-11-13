@@ -1,0 +1,67 @@
+{
+    "entities": [
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 20.0, 
+            "role": "goal", 
+            "shape": "box", 
+            "w": 80.0, 
+            "x": -72.0, 
+            "y": -78.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "role": "static", 
+            "shape": "segment", 
+            "x1": -27.0, 
+            "x2": 72.0, 
+            "y1": -66.0, 
+            "y2": 33.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 100.0, 
+            "role": "static", 
+            "shape": "box", 
+            "w": 20.0, 
+            "x": 81.0, 
+            "y": 86.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 10, 
+            "role": "static", 
+            "shape": "box", 
+            "w": 200, 
+            "x": -80.0, 
+            "y": 91.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "r": 10, 
+            "role": "ball", 
+            "shape": "circle", 
+            "x": -134.0, 
+            "y": 113.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 20, 
+            "role": "hitter", 
+            "shape": "box", 
+            "w": 20, 
+            "x": -170.0, 
+            "y": 115.0
+        }
+    ], 
+    "info": {
+        "description": "Ho yeah", 
+        "title": "Ballz Editor Generated"
+    }
+}

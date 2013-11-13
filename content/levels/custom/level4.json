@@ -1,0 +1,93 @@
+{
+	"info" :
+	{
+		"title" : "Hello world!",
+		"description" : "Hit the ball towards the goal.",
+		"author" : "G.C."
+	},
+	"general" : 
+	{
+		"gravity": 100,
+		"damping": 0.7,
+		"bounds" :
+		[
+			{
+				"x" : -110,
+				"y" : 0,
+				"w" : 100,
+				"h" : 100
+			},
+			{
+				"x" : -200,
+				"y" : 150,
+				"w" : 100,
+				"h" : 50
+			}
+		],
+		"size": 600
+	},
+	"entities" :
+	[	
+		{
+			"role" : "hitter",
+			"shape": "box",
+			"x" : -110,
+			"y" : 20,
+			"w" : 20,
+			"h": 20
+
+		},
+		{
+			"role" : "hitter",
+			"shape": "box",
+			"x" : -140,
+			"y" : 20,
+			"w" : 20,
+			"h": 20
+
+		},
+		{
+			"role" : "ball",
+			"shape": "circle",
+			"x" : -100,
+			"y" : 150,
+			"r" : 30
+		},
+		{
+			"role" : "goal",
+			"shape": "segment",
+			"x1" : 100,
+			"y1" : 0,
+			"x2" : 130,
+			"y2": 80,
+			"thickness":5
+		},
+		{
+			"role": "static",
+			"shape": "segment",
+			"x1" : -130,
+			"y1" : 100,
+			"x2" : -95,
+			"y2": 100,
+			"thickness":5
+		},
+		{
+			"role": "static",
+			"shape": "segment",
+			"x2" : 100,
+			"y2" : 0,
+			"x1" : -95,
+			"y1": 100,
+			"thickness":5
+		},
+		{
+			"role": "static",
+			"shape": "segment",
+			"x1" : -80,
+			"y1": -50,
+			"x2" : -150,
+			"y2" : -50,
+			"thickness":2
+		}
+	]
+}

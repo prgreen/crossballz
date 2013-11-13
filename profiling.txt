@@ -1,0 +1,194 @@
+###############################################################################################################
+#####  ProFi, a lua profiler. This profile was generated on: 02/24/13 20:37:26
+#####  ProFi is created by Luke Perkin 2012 under the MIT Licence, www.locofilm.co.uk
+#####  Version 1.3. Get the most recent version at this gist: https://gist.github.com/2838755
+###############################################################################################################
+ 
+| TOTAL TIME = 37.951000
+| FILE                                              : FUNCTION                                : LINE                : TIME        : RELATIVE    : CALLED      |
+| D:\prog\ballz\lua\game\init.lua                   : wait_for_event                          :  104                : 34.529      : 90.98%      :    4048     |
+| D:\prog\ballz\lua\ballz\renderer.lua              : draw_all                                :    8                : 2.037       : 5.37%       :    2273     |
+| D:\prog\ballz\lua\game\init.lua                   : show                                    :   72                : 0.555       : 1.46%       :    2274     |
+| D:\prog\ballz\lua\game\init.lua                   : draw_filled_rectangle                   :  165                : 0.206       : 0.54%       :    6819     |
+| D:\prog\ballz\lua\game\init.lua                   : draw_text                               :  173                : 0.191       : 0.50%       :    4546     |
+| D:\prog\ballz\lua\game\init.lua                   : draw_line                               :  159                : 0.151       : 0.40%       :    9092     |
+| D:\prog\ballz\lua\game\init.lua                   : use                                     :  140                : 0.123       : 0.32%       :    9092     |
+| D:\prog\ballz\lua\game\init.lua                   : draw_filled_circle                      :  162                : 0.110       : 0.29%       :    6819     |
+| D:\prog\ballz\lua\game\init.lua                   : get_mouse_x                             :  180                : 0.097       : 0.26%       :    4546     |
+| D:\prog\ballz\lua\game\init.lua                   : get_mouse_y                             :  185                : 0.085       : 0.22%       :    4546     |
+| D:\prog\ballz\lua\game\init.lua                   : identity                                :  128                : 0.078       : 0.21%       :    6819     |
+| D:\prog\ballz\lua\game\init.lua                   : clear                                   :   76                : 0.070       : 0.18%       :    2274     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : step                                    :   47                : 0.069       : 0.18%       :    2272     |
+| D:\prog\ballz\lua\game\init.lua                   : scale                                   :  131                : 0.066       : 0.17%       :    4546     |
+| D:\prog\ballz\lua\game\init.lua                   : translate                               :  134                : 0.062       : 0.16%       :    4546     |
+| D:\prog\ballz\lua\game\init.lua                   : init                                    :    6                : 0.040       : 0.11%       :       1     |
+| D:\prog\ballz\lua\ballz\loader.lua                : load_level                              :   32                : 0.028       : 0.07%       :       4     |
+| D:\prog\ballz\lua\utils\json.lua                  : decode                                  :  335                : 0.024       : 0.06%       :       4     |
+| D:\prog\ballz\lua\game\init.lua                   : build                                   :  143                : 0.017       : 0.04%       :    2273     |
+| D:\prog\ballz\lua\ballz\constants.lua             : pixel2world                             :   40                : 0.017       : 0.04%       :    6304     |
+| D:\prog\ballz\lua\utils\json.lua                  : read_object_value                       :  493                : 0.016       : 0.04%       :      52     |
+| D:\prog\ballz\lua\utils\json.lua                  : read_object_value                       :  468                : 0.015       : 0.04%       :       4     |
+| D:\prog\ballz\lua\utils\json.lua                  : next_token                              :  361                : 0.009       : 0.02%       :     802     |
+| D:\prog\ballz\lua\utils\json.lua                  : read_string                             :  377                : 0.004       : 0.01%       :     144     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : v                                       :   63                : 0.003       : 0.01%       :    1801     |
+| D:\prog\ballz\lua\utils\json.lua                  : read_object_value                       :  377                : 0.002       : 0.01%       :      44     |
+| D:\prog\ballz\lua\utils\json.lua                  : read_value                              :  493                : 0.001       : 0.00%       :      94     |
+| [string "return "y""]                             : anonymous                               :    0                : 0.001       : 0.00%       :      20     |
+| D:\prog\ballz\lua\game\init.lua                   : title                                   :   32                : 0.001       : 0.00%       :       1     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : set_friction                            :  103                : 0.001       : 0.00%       :      16     |
+| [C]                                               : is_empty                                :   -1                : 0.000       : 0.00%       :    2293     |
+| D:\prog\ballz\lua\game\init.lua                   : start                                   :   89                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_wait_for_event                       :   -1                : 0.000       : 0.00%       :    4048     |
+| D:\prog\ballz\lua\game\init.lua                   : is_empty                                :  109                : 0.000       : 0.00%       :    2293     |
+| D:\prog\ballz\lua\game\init.lua                   : transform                               :  124                : 0.000       : 0.00%       :    6819     |
+| [C]                                               : al_flip_display                         :   -1                : 0.000       : 0.00%       :    2274     |
+| [C]                                               : al_start_timer                          :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : type                                    :   -1                : 0.000       : 0.00%       :    2274     |
+| [C]                                               : al_map_rgb                              :   -1                : 0.000       : 0.00%       :    2274     |
+| [C]                                               : event_queue                             :   -1                : 0.000       : 0.00%       :       1     |
+| D:\prog\ballz\lua\game\init.lua                   : event_source                            :   29                : 0.000       : 0.00%       :       1     |
+| [C]                                               : event_source                            :   -1                : 0.000       : 0.00%       :       2     |
+| D:\prog\ballz\lua\game\init.lua                   : register                                :  101                : 0.000       : 0.00%       :       4     |
+| [C]                                               : al_create_event_queue                   :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_hide_mouse_cursor                    :   -1                : 0.000       : 0.00%       :       1     |
+| D:\prog\ballz\lua\game\init.lua                   : event_queue                             :   97                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_set_window_title                     :   -1                : 0.000       : 0.00%       :       1     |
+| D:\prog\ballz\lua\game\init.lua                   : hide_mouse_cursor                       :   41                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_clear_to_color                       :   -1                : 0.000       : 0.00%       :    2274     |
+| [C]                                               : al_register_event_source                :   -1                : 0.000       : 0.00%       :       4     |
+| D:\prog\ballz\lua\game\init.lua                   : mouse_event_source                      :  115                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_load_ttf_font                        :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : font                                    :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : transform                               :   -1                : 0.000       : 0.00%       :    6819     |
+| D:\prog\ballz\lua\game\init.lua                   : event_source                            :   92                : 0.000       : 0.00%       :       1     |
+| D:\prog\ballz\lua\game\init.lua                   : font                                    :  169                : 0.000       : 0.00%       :       1     |
+| D:\prog\ballz\lua\game\init.lua                   : keyboard_event_source                   :  119                : 0.000       : 0.00%       :       1     |
+| [C]                                               : keyboard_event_source                   :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : mouse_event_source                      :   -1                : 0.000       : 0.00%       :       1     |
+| D:\prog\ballz\lua\utils\profiling.lua             : startHooks                              :  234                : 0.000       : 0.00%       :       0     |
+| [C]                                               : rgb                                     :   -1                : 0.000       : 0.00%       :   28627     |
+| [C]                                               : al_scale_transform                      :   -1                : 0.000       : 0.00%       :    4546     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : remove_constraint                       :   58                : 0.000       : 0.00%       :       5     |
+| [C]                                               : cpSpaceRemoveConstraint                 :   -1                : 0.000       : 0.00%       :       5     |
+| [C]                                               : collectgarbage                          :   -1                : 0.000       : 0.00%       :       6     |
+| [C]                                               : cpSpaceAddConstraint                    :   -1                : 0.000       : 0.00%       :       5     |
+| [C]                                               : pin_joint                               :   -1                : 0.000       : 0.00%       :       5     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : add_constraint                          :   41                : 0.000       : 0.00%       :       5     |
+| [C]                                               : cpPinJointNew                           :   -1                : 0.000       : 0.00%       :       5     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : pin_joint                               :  116                : 0.000       : 0.00%       :       5     |
+| D:\prog\ballz\lua\ballz\loader.lua                : anonymous                               :   10                : 0.000       : 0.00%       :       2     |
+| D:\prog\ballz\lua\ballz\loader.lua                : anonymous                               :   18                : 0.000       : 0.00%       :       2     |
+| D:\prog\ballz\lua\utils\profiling.lua             : stop                                    :   85                : 0.000       : 0.00%       :       1     |
+| D:\prog\ballz\lua\utils\profiling.lua             : shouldReturn                            :  199                : 0.000       : 0.00%       :       1     |
+| D:\prog\ballz\lua\ballz\loader.lua                : anonymous                               :   14                : 0.000       : 0.00%       :       2     |
+| [C]                                               : al_set_mouse_z                          :   -1                : 0.000       : 0.00%       :       9     |
+| [string "return "Hey level 2""]                   : anonymous                               :    0                : 0.000       : 0.00%       :       2     |
+| D:\prog\ballz\lua\game\init.lua                   : set_mouse_z                             :  177                : 0.000       : 0.00%       :       9     |
+| D:\prog\ballz\lua\ballz\loader.lua                : anonymous                               :   21                : 0.000       : 0.00%       :       2     |
+| [C]                                               : al_identity_transform                   :   -1                : 0.000       : 0.00%       :    6819     |
+| [C]                                               : al_set_mouse_xy                         :   -1                : 0.000       : 0.00%       :       5     |
+| D:\prog\ballz\lua\ballz\constants.lua             : world2pixel                             :   43                : 0.000       : 0.00%       :       5     |
+| [C]                                               : al_get_mouse_state                      :   -1                : 0.000       : 0.00%       :    9092     |
+| [C]                                               : al_draw_line                            :   -1                : 0.000       : 0.00%       :    9092     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : get_pos                                 :   79                : 0.000       : 0.00%       :    9097     |
+| [C]                                               : display                                 :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_use_transform                        :   -1                : 0.000       : 0.00%       :    9092     |
+| D:\prog\ballz\lua\game\init.lua                   : rgb                                     :  155                : 0.000       : 0.00%       :   28627     |
+| [C]                                               : al_translate_transform                  :   -1                : 0.000       : 0.00%       :    4546     |
+| D:\prog\ballz\lua\game\init.lua                   : set_mouse_xy                            :   38                : 0.000       : 0.00%       :       5     |
+| [C]                                               : get_pos                                 :   -1                : 0.000       : 0.00%       :    9097     |
+| [C]                                               : al_draw_filled_circle                   :   -1                : 0.000       : 0.00%       :    6819     |
+| [C]                                               : al_draw_text                            :   -1                : 0.000       : 0.00%       :    4546     |
+| [C]                                               : cpSpaceStep                             :   -1                : 0.000       : 0.00%       :    2272     |
+| [C]                                               : al_draw_filled_rectangle                :   -1                : 0.000       : 0.00%       :    6819     |
+| [C]                                               : al_build_transform                      :   -1                : 0.000       : 0.00%       :    2273     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : get_angle                               :   82                : 0.000       : 0.00%       :    2273     |
+| [C]                                               : get_angle                               :   -1                : 0.000       : 0.00%       :    2273     |
+| [C]                                               : al_create_display                       :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_install_keyboard                     :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : timer                                   :   -1                : 0.000       : 0.00%       :       1     |
+| [string "return "entities""]                      : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| D:\prog\ballz\lua\utils\json.lua                  : read_value                              :  439                : 0.000       : 0.00%       :      16     |
+| [string "return "role""]                          : anonymous                               :    0                : 0.000       : 0.00%       :      16     |
+| [string "return "hitter""]                        : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [string "return "h""]                             : anonymous                               :    0                : 0.000       : 0.00%       :      16     |
+| [string "return "x""]                             : anonymous                               :    0                : 0.000       : 0.00%       :      20     |
+| [string "return "w""]                             : anonymous                               :    0                : 0.000       : 0.00%       :      16     |
+| [string "return "bound""]                         : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [string "return "damping""]                       : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [string "return "shape""]                         : anonymous                               :    0                : 0.000       : 0.00%       :      16     |
+| [string "return "ball""]                          : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : space                                   :   20                : 0.000       : 0.00%       :       4     |
+| [C]                                               : __index                                 :   -1                : 0.000       : 0.00%       :  248298     |
+| [C]                                               : cpSpaceNew                              :   -1                : 0.000       : 0.00%       :       4     |
+| [string "return "box""]                           : anonymous                               :    0                : 0.000       : 0.00%       :      12     |
+| [string "return "static""]                        : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [string "return "r""]                             : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [string "return "goal""]                          : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [string "return "circle""]                        : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [C]                                               : space                                   :   -1                : 0.000       : 0.00%       :       4     |
+| [C]                                               : read_object_value                       :   -1                : 0.000       : 0.00%       :      84     |
+| [string "return "gravity""]                       : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [C]                                               : read                                    :   -1                : 0.000       : 0.00%       :       4     |
+| D:\prog\ballz\lua\utils\json.lua                  : read_object_value                       :  487                : 0.000       : 0.00%       :     148     |
+| [C]                                               : byte                                    :   -1                : 0.000       : 0.00%       :    2760     |
+| D:\prog\ballz\lua\utils\json.lua                  : read_object_value                       :  439                : 0.000       : 0.00%       :     148     |
+| [C]                                               : open                                    :   -1                : 0.000       : 0.00%       :       4     |
+| D:\prog\ballz\lua\utils\profiling.lua             : start                                   :   67                : 0.000       : 0.00%       :       0     |
+| [C]                                               : print                                   :   -1                : 0.000       : 0.00%       :       4     |
+| [C]                                               : getTime                                 :   -1                : 0.000       : 0.00%       :       2     |
+| D:\prog\ballz\lua\utils\json.lua                  : read_object_value                       :  403                : 0.000       : 0.00%       :      84     |
+| [C]                                               : sub                                     :   -1                : 0.000       : 0.00%       :     272     |
+| [string "return "info""]                          : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [string "return "author""]                        : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [string "return "G.C.""]                          : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [string "return "general""]                       : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [C]                                               : loadstring                              :   -1                : 0.000       : 0.00%       :     188     |
+| [string "return "Hit the ball towards the goal.""]: anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [string "return "Hello world!""]                  : anonymous                               :    0                : 0.000       : 0.00%       :       2     |
+| [string "return "description""]                   : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| [string "return "title""]                         : anonymous                               :    0                : 0.000       : 0.00%       :       4     |
+| D:\prog\ballz\lua\game\init.lua                   : display                                 :   21                : 0.000       : 0.00%       :       1     |
+| [C]                                               : new                                     :   -1                : 0.000       : 0.00%       :   14941     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : set_gravity                             :   24                : 0.000       : 0.00%       :       4     |
+| [C]                                               : cast                                    :   -1                : 0.000       : 0.00%       :       4     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : add_collision_handler                   :   44                : 0.000       : 0.00%       :       4     |
+| [C]                                               : cpSpaceAddCollisionHandler              :   -1                : 0.000       : 0.00%       :       4     |
+| [C]                                               : al_install_system                       :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : circle_shape                            :   -1                : 0.000       : 0.00%       :       4     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : circle_shape                            :   96                : 0.000       : 0.00%       :       4     |
+| [C]                                               : cpCircleShapeNew                        :   -1                : 0.000       : 0.00%       :       4     |
+| [C]                                               : moment_for_circle                       :   -1                : 0.000       : 0.00%       :       4     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : moment_for_circle                       :  112                : 0.000       : 0.00%       :       4     |
+| [C]                                               : al_init_image_addon                     :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_init_ttf_addon                       :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_install_mouse                        :   -1                : 0.000       : 0.00%       :       1     |
+| D:\prog\ballz\lua\game\init.lua                   : timer                                   :   85                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_create_timer                         :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_init_font_addon                      :   -1                : 0.000       : 0.00%       :       1     |
+| D:\prog\ballz\lua\utils\profiling.lua             : stopHooks                               :  238                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_install_audio                        :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_init_acodec_addon                    :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : al_init_primitives_addon                :   -1                : 0.000       : 0.00%       :       1     |
+| [C]                                               : __newindex                              :   -1                : 0.000       : 0.00%       :    3615     |
+| [C]                                               : cpSpaceAddShape                         :   -1                : 0.000       : 0.00%       :      16     |
+| [C]                                               : _cpShapeSetElasticity                   :   -1                : 0.000       : 0.00%       :      16     |
+| [C]                                               : (for generator)                         :   -1                : 0.000       : 0.00%       :   11410     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : body                                    :   72                : 0.000       : 0.00%       :      17     |
+| [C]                                               : cpBodyNew                               :   -1                : 0.000       : 0.00%       :      17     |
+| [C]                                               : body                                    :   -1                : 0.000       : 0.00%       :      17     |
+| [C]                                               : ipairs                                  :   -1                : 0.000       : 0.00%       :    2282     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : set_damping                             :   27                : 0.000       : 0.00%       :       4     |
+| [C]                                               : _cpSpaceSetDamping                      :   -1                : 0.000       : 0.00%       :       4     |
+| [C]                                               : _cpSpaceSetGravity                      :   -1                : 0.000       : 0.00%       :       4     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : add_shape                               :   31                : 0.000       : 0.00%       :      16     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : add_body                                :   38                : 0.000       : 0.00%       :       8     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : set_pos                                 :   76                : 0.000       : 0.00%       :     509     |
+| [C]                                               : _cpShapeSetFriction                     :   -1                : 0.000       : 0.00%       :      16     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : set_elasticity                          :  106                : 0.000       : 0.00%       :      16     |
+| [C]                                               : cpSpaceAddBody                          :   -1                : 0.000       : 0.00%       :       8     |
+| [C]                                               : box_shape                               :   -1                : 0.000       : 0.00%       :      12     |
+| D:\prog\ballz\lua\chipmunk\init.lua               : box_shape                               :   99                : 0.000       : 0.00%       :      12     |
+| [C]                                               : cpBoxShapeNew                           :   -1                : 0.000       : 0.00%       :      12     |
+| [C]                                               : cpBodySetPos                            :   -1                : 0.000       : 0.00%       :     509     |
+| [C]                                               : sethook                                 :   -1                : 0.000       : 0.00%       :       1     |

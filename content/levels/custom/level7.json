@@ -1,0 +1,103 @@
+{
+    "entities": [
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 20.0, 
+            "role": "static", 
+            "shape": "box", 
+            "w": 200.0, 
+            "x": 9.0, 
+            "y": -118.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 10.0, 
+            "role": "goal", 
+            "shape": "box", 
+            "w": 180.0, 
+            "x": 8.0, 
+            "y": -102.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 100.0, 
+            "role": "static", 
+            "shape": "box", 
+            "w": 40.0, 
+            "x": -102.0, 
+            "y": -57.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 100.0, 
+            "role": "static", 
+            "shape": "box", 
+            "w": 40.0, 
+            "x": 120.0, 
+            "y": -58.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 20.0, 
+            "role": "hitter", 
+            "shape": "box", 
+            "w": 200.0, 
+            "x": 8.0, 
+            "y": 6.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 20.0, 
+            "role": "hitter", 
+            "shape": "box", 
+            "w": 100.0, 
+            "x": 5.0, 
+            "y": 28.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 20.0, 
+            "role": "hitter", 
+            "shape": "box", 
+            "w": 50.0, 
+            "x": 2.0, 
+            "y": 51.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "r": 10, 
+            "role": "ball", 
+            "shape": "circle", 
+            "x": 0.0, 
+            "y": 73.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 100.0, 
+            "role": "dynamic", 
+            "shape": "box", 
+            "w": 20.0, 
+            "x": 122.0, 
+            "y": 42.0
+        }, 
+        {
+            "elasticity": 0.7, 
+            "friction": 0.5, 
+            "h": 100.0, 
+            "role": "dynamic", 
+            "shape": "box", 
+            "w": 20.0, 
+            "x": -107.0, 
+            "y": 44.0
+        }
+    ]
+}

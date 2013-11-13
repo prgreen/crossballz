@@ -1,0 +1,65 @@
+{
+	"info" :
+	{
+		"title" : "Hello world!",
+		"description" : "Hit the ball towards the goal.",
+		"author" : "G.C."
+	},
+	"general" : 
+	{
+		"gravity": 100,
+		"damping": 0.7,
+		"bounds" :
+		[
+			{
+				"x" : -110,
+				"y" : 20,
+				"w" : 100,
+				"h" : 100
+			}
+		]
+	},
+	"entities" :
+	[	
+		{
+			"role" : "hitter",
+			"shape": "box",
+			"x" : -110,
+			"y" : 20,
+			"w" : 20,
+			"h": 20
+
+		},
+		{
+			"role" : "ball",
+			"shape": "circle",
+			"x" : 0,
+			"y" : 50,
+			"r" : 10
+		},
+		{
+			"role" : "goal",
+			"shape": "segment",
+			"x1" : 100,
+			"y1" : 0,
+			"x2" : 130,
+			"y2": 80
+		},
+		{
+			"role": "static",
+			"shape": "box",
+			"x" : -40,
+			"y" : -5,
+			"w" : 200,
+			"h": 10
+		},
+		{
+			"role": "dynamic",
+			"shape": "box",
+			"x" : 0,
+			"y" : 20,
+			"w" : 10,
+			"h": 40
+		}
+	]
+}

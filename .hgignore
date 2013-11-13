@@ -1,0 +1,9 @@
+syntax: glob
+deps/**
+lua/test/**
+content/fonts/**
+*.dll
+*.exe
+profiling.txt
+
+

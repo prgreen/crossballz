@@ -1,0 +1,25 @@
+{
+	"info" :
+	{
+		"title" : "hello world",
+		"description" : "hey first level",
+		"author" : "grym",
+		"custom" : true
+	},
+	"entities" :
+	[	
+		{
+			"type": "rectangle",
+			"x" : 54,
+			"y" : 60,
+			"w" : 45,
+			"h": 60
+		},
+		{
+			"type": "circle",
+			"x" : 55,
+			"y" : 60,
+			"r" : 50
+		}
+	]
+}
